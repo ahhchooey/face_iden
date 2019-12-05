@@ -9,7 +9,7 @@ to install locally
 5. run ```pip freeze``` to make sure that the correct dependencies are installed
 6. run ```python test/camera_test.py``` to make sure that the camera and opencv are functional, q to cancel
 
+
 to run facial recognition
 
 1. run ```python src/face.py```
-
