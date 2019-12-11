@@ -1,5 +1,6 @@
 # Python Virtual ENV#
 venv/
+images/
 
 # Installer logs
 pip-log.txt
