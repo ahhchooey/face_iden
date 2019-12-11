@@ -1,5 +1,7 @@
 # Face Identification Application
 
+bleh
+
 ## About
 this is a simple facial identification tool. it is currently a skeleton where you can put images to train the model.
 
