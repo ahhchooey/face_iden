@@ -1,6 +1,11 @@
-face identification application
+#face identification application
 
-to install locally
+##about
+this is a simple facial identification tool. it is currently a skeleton where you can put images to train the model.
+
+##how to use
+
+####to install locally
 
 1. clone the directory
 2. in directory root, run ```python3 -m venv venv``` in terminal to create a virtual environment called venv
@@ -10,6 +15,22 @@ to install locally
 6. run ```python test/camera_test.py``` to make sure that the camera and opencv are functional, q to cancel
 
 
-to run facial recognition
+####to run facial recognition
 
 1. run ```python src/face.py```
+
+
+####to train model
+
+1. make images directory in src
+2. make a directory with a name (ie. Alex) in the images directory
+3. fill that directory with images of a person
+4. from directory root, run ```python src/learn.py```
+5. run ```python src/face.py```, you should see a name above the box if the model learned the face
+
+
+##dependencies
+* python3
+* pip
+* pillow => python imaging library
+* opencv
